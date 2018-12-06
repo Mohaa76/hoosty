@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.clear{clear: both;}
+
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(sunrise.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+header .row h1{display: inline-block ; padding: 20px; color:#fff;}
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+.main-nav li a{
+color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: monospace;
+    font-size: 15px;    
+}
+header .row .login
+{background-color: aqua;
+padding: 8px 16px ;
+border-radius: 5px;
+margin-right: 5px;}
+header .hoosty{
+    text-align: center;
+    margin-top: 0px;
+    
+}
+header .hoosty h1{
+    color: whitesmoke;
+    margin-top: 150px;
+    text-transform: uppercase;
+    font-size: 60px;
+    
+}
+h2{
+    color: white;
+ text-align: center;  
+}
+.btn {
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 15px
+}
+.btn-one {
+    background-color: darkblue;
+    font-family: "Roboto", sans-serif;
+}
+.button { 
+text-align: center;
+    margin-top: 20px
+}
+header .hoosty .button .sign {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white ;
+    background-color: dodgerblue;
+    border-radius: 8px ;
+    padding: 6px 10px;
+    font-family: monospace;
+    font-size: 15px; 
+}
+.learn {
+     color: white;
+    text-decoration: none;
+    border: 1px solid white ;
+    border-radius: 8px ;
+    padding: 6px 10px;
+    font-family: monospace;
+    font-size: 15px; 
+}
+.W {
+     color: skyblue;
+    margin-top: 150px;
+    text-transform: uppercase;
+    font-size: 60px;
+}
